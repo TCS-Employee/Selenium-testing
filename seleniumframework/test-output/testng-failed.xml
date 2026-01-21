@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rediff Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Create Account Title Test(failed)">
+    <classes>
+      <class name="tests.RediffCreateAccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyCreateAccountPageTitle"/>
+        </methods>
+      </class> <!-- tests.RediffCreateAccountTest -->
+    </classes>
+  </test> <!-- Create Account Title Test(failed) -->
+</suite> <!-- Failed suite [Rediff Automation Suite] -->
